@@ -59,6 +59,64 @@
 }
 
 /* 最新消息 */
-#news{
-    height: 300px;
+#news
+{
+    height: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     /* 格線間隙 */
+     grid-gap: 50px;
+     padding: 150px 0;
+     text-align: center;
 }
+
+#news > div 
+{
+    background: #fff;
+}
+
+#news > h3
+
+
+#news #news-left{
+    height: 350px;
+    background-image: url(./banner.jpg/19201111.jpg);
+}
+
+#news #news-right{
+    height: 350px;
+    background-image: url(./banner.jpg/19201277.jpg);
+}
+
+/* 按鈕樣式 */
+a.button{
+    text-decoration: none;
+    color: #aaa;
+    border: 1px solid #aaa;
+    padding: 10px 50px;
+    transition: 0.5s;
+}
+
+a.button:hover{
+    color: white;
+    background: #aaa;
+}
+
+/* 盒子區塊 */
+#box{
+    background-image: url();
+    background-attachment: fixed;
+}
+
+#box2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding: 100px 0;
+    backdrop-filter: biur(5px);
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
