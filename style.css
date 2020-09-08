@@ -106,7 +106,7 @@ a.button:hover{
 
 /* 盒子區塊 */
 #box{
-    background-image: url();
+    background-image: url(./banner.jpg/box.jpg);
     background-attachment: fixed;
 }
 
@@ -147,10 +147,10 @@ a.button:hover{
 }
 
 #content #about{
-    background-image: url();
+    background-image: url(./banner.jpg/about.jpg);
 }
 
 #content #contact{
-    background-image: url();
+    background-image: url(./banner.jpg/contact.jpg);
 }
 
