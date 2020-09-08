@@ -120,3 +120,24 @@ a.button:hover{
     font-weight: 100;
 }
 
+/* 關於我&聯絡我 */
+
+#content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#contact div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#content #about{
+    background-image: url();
+}
+
+#content #contact{
+    background-image: url();
+}
+
