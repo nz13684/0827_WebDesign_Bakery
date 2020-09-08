@@ -15,14 +15,15 @@ body{
     width: 100%;
     /* vh 螢幕高度 */
     height: 100vh;
-    background-image: url(./banner.jpg/bakery-2.jpg);
+    background-image: url(./img/bakery-2.jpg);
     /* 背景-尺寸：填滿- 50%、500px */
     background-size: cover;
+    /* 背景-附著：固定 */
     background-attachment: fixed;
 }
 
 #banner nav{
-    padding: 35px;
+    padding: 30px;
 }
 
 #banner a{
@@ -39,28 +40,25 @@ body{
 }
 
 #banner p{
+    /* 文字、行內 */
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
     /* 透明度 0-1 */
     opacity: 0.7;
-    font-size: 30px;
+    font-size: 20px;
     padding: 30px;
-    color: yellow;
-
 }
 
 #banner hr{
-    text-align: center;
     width: 300px;
     opacity: 0.7;
-    color: white;
+    margin: 0 auto;
 }
 
 #banner h1{
     text-align: center;
-    font-size: 72px;
+    font-size: 12px;
     padding: 30px;
-    color: white;
 }
 
 /* 最新消息 */
@@ -77,15 +75,15 @@ body{
      text-align: center;
 }
 
-#news > div 
-{
+#news > div {
     background: #fff;
 }
 
 #news > h3{
     color: #aaaaaa;
     padding: 20px;
-    font-weight: uppercase;
+    font-weight: 100;
+    text-transform: uppercase;
     letter-spacing: 5px;
 }
 
@@ -108,12 +106,12 @@ body{
 
 #news #news-left{
     height: 350px;
-    background-image: url(./banner.jpg/19201111.jpg);
+    background-image: url(./img/19201111.jpg);
 }
 
 #news #news-right{
     height: 350px;
-    background-image: url(./banner.jpg/19201277.jpg);
+    background-image: url(./img/19201277.jpg);
 }
 
 /* 按鈕樣式 */
@@ -121,7 +119,7 @@ a.button{
     text-decoration: none;
     color: #aaa;
     border: 1px solid #aaa;
-    padding: 15px 50px;
+    padding: 15px 80px;
     transition: 0.5s;
 }
 
@@ -132,7 +130,7 @@ a.button:hover{
 
 /* 盒子區塊 */
 #box{
-    background-image: url(./banner.jpg/box.jpg);
+    background-image: url(./img/box.jpg);
     background-attachment: fixed;
 }
 
@@ -149,7 +147,6 @@ a.button:hover{
 }
 
 /* 關於我&聯絡我 */
-
 #content{
     width: 1200px;
     margin: 0 auto;
@@ -192,10 +189,48 @@ a.button:hover{
 }
 
 #content #about{
-    background-image: url(./banner.jpg/about.jpg);
+    background-image: url(./img/about.jpg);
 }
 
 #content #contact{
-    background-image: url(./banner.jpg/contact.jpg);
+    background-image: url(./img/contact.jpg);
+}
+
+/* 地圖 */
+#map{
+    width: 100%;
+    height: 350px;
+    margin-top: 150px;
+}
+
+/* 頁尾 */
+footer{
+    background: #252525;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+footer #icon a{
+    padding: 20px;
+    /* 濾鏡 */
+    filter: opacity(100%);
+    transition: 0.5s;
+}
+
+footer h2{
+    font-weight: 100;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    padding: 50px 0 40px;
+    font-size: 30px;
+}
+
+footer p{
+    padding: 20px;
+    font-size: 10px;
+    color: #aaa;
+    letter-spacing: 3px;
+    padding-left: 3px;
 }
 
