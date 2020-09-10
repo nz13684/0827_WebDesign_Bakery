@@ -264,6 +264,41 @@ footer p{
     letter-spacing: 20px;
     padding-left: 20px;
     line-height: 20vh;
-    backdrop-filter: opacity(35%);
+    backdrop-filter: opacity(95%);
     height: 30vh;
+}
+
+#about-content{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    margin-top: 100px;
+}
+#about-content h3{
+    text-align: center;
+    padding: 20px;
+}
+
+#about-content hr{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#about-content h1{
+    text-align: center;
+    padding: 30px;
+}
+
+#about-content #about-1{
+    height: 350px;
+    background-image: url(./img/about-1.jpg);
+}
+#about-content #about-2{
+    height: 350px;
+    background-image: url(./img/about-2.jpg);
+}
+#about-content #about-3{
+    height: 350px;
+    background-image: url(./img/about-3.jpg);
 }
