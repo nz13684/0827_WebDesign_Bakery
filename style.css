@@ -251,8 +251,9 @@ footer p{
 
 #banner-about nav{
     backdrop-filter: opacity(35%);
-    font-size: 18px;
+    font-size: 25px;
     color: #aaa;
+    letter-spacing: 20px;
 }
 
 #banner-about h2{
