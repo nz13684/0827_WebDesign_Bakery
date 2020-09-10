@@ -249,6 +249,12 @@ footer p{
     background-attachment: fixed;
 }
 
+#banner-about nav{
+    backdrop-filter: opacity(35%);
+    font-size: 18px;
+    color: #aaa;
+}
+
 #banner-about h2{
     color:white;
     text-align: center;
