@@ -250,7 +250,7 @@ footer p{
 }
 
 #banner-about nav{
-    backdrop-filter: opacity(35%);
+    backdrop-filter: opacity(80%);
 }
 
 #banner-about a{
@@ -270,7 +270,7 @@ footer p{
     letter-spacing: 20px;
     padding-left: 20px;
     line-height: 20vh;
-    backdrop-filter: opacity(95%);
+    backdrop-filter: opacity(80%);
     height: 30vh;
 }
 
