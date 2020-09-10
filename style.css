@@ -15,7 +15,7 @@ body{
     width: 100%;
     /* vh 螢幕高度 */
     height: 100vh;
-    background-image: url(./img/0-2.jpg);
+    background-image: url(./img/bakery-2.jpg);
     /* 背景-尺寸：填滿- 50%、500px */
     background-size: cover;
     /* 背景-附著：固定 */
@@ -298,13 +298,13 @@ footer p{
 
 #about-content #about-1{
     height: 350px;
-    background-image: url(./img/about-1.jpg);
+    background-image: url(./img/about_1.jpg);
 }
 #about-content #about-2{
     height: 350px;
-    background-image: url(./img/about-2.jpg);
+    background-image: url(./img/about_2.jpg);
 }
 #about-content #about-3{
     height: 350px;
-    background-image: url(./img/about-3.jpg);
+    background-image: url(./img/about_3.jpg);
 }
