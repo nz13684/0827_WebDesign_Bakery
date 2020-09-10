@@ -47,6 +47,7 @@ body{
     opacity: 0.7;
     font-size: 20px;
     padding: 30px;
+    color: white;
 }
 
 #banner hr{
@@ -57,8 +58,9 @@ body{
 
 #banner h1{
     text-align: center;
-    font-size: 12px;
+    font-size: 30px;
     padding: 30px;
+    color:yellow;
 }
 
 /* 最新消息 */
@@ -234,3 +236,26 @@ footer p{
     padding-left: 3px;
 }
 
+/* 關於我分頁 */
+/* 橫幅 */
+#banner-about{
+    width: 100%;
+    /* vh 螢幕高度 */
+    height: 40vh;
+    background-image: url(./img/about.jpg);
+    /* 背景-尺寸：填滿- 50%、500px */
+    background-size: cover;
+    /* 背景-附著：固定 */
+    background-attachment: fixed;
+}
+
+#banner-about h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    line-height: 20vh;
+    backdrop-filter: opacity(35%);
+    height: 30vh;
+}
