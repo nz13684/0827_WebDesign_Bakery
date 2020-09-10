@@ -251,9 +251,15 @@ footer p{
 
 #banner-about nav{
     backdrop-filter: opacity(35%);
-    font-size: 25px;
-    color: #aaa;
-    letter-spacing: 20px;
+}
+
+#banner-about a{
+    color: white;
+    /* 文字 - 裝飾 : 無 */
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 30px;
+    transition: 0.3s;
 }
 
 #banner-about h2{
